@@ -1,0 +1,31 @@
+在二叉链表类模板中增加函数成员NonRecurringInOrder(),实现非递归中序遍历二叉树
+
+
+
+原树：
+
+      F
+   C
+      E        
+A     
+   B
+      D
+
+中序遍历：
+D  B  A  E  C  F
+
+无递归的中序遍历：    （新增）
+D  B  A  E  C  F
+
+                                                                    I
+                                                                  F
+                                                                C
+由pre[]=(A,B,D,E,G,H,C,F,I),in[]=(D,B,G,E,H,A,C,F,I)构造二叉树A     H
+                                                                  E
+                                                                    G
+                                                                B
+                                                                  D
+
+无递归的中序遍历：    （新增）
+D  B  G  E  H  A  C  F  I
+

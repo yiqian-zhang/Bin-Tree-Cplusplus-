@@ -1,0 +1,72 @@
+在二叉链表类模板中增加函数成员 Revolute()
+
+                 F
+               C
+                 E
+在显示完原树A          并遍历后
+               B
+                 D
+
+显示：
+
+
+交换所有结点的左右子树后：
+      D
+   B   
+A
+      E
+   C
+      F
+同时先序遍历变为：
+A  C  F  E  B  D
+
+中序遍历变为：
+F  C  E  A  B  D
+
+后序遍历变为：
+F  E  C  D  B  A
+
+层次遍历变为：
+A  C  B  F  E  D
+
+删除根的左子树后：
+      D
+   B
+A
+
+再交换所有结点的左右子树后：
+A
+   B
+      D
+
+                                                                    I
+                                                                  F
+                                                                C
+由pre[]=(A,B,D,E,G,H,C,F,I),in[]=(D,B,G,E,H,A,C,F,I)构造二叉树A     H
+                                                                  E
+                                                                    G
+                                                                B
+                                                                  D
+显示：
+
+交换所有结点的左右子树后：
+    D
+  B
+      G
+    E
+      H
+A
+  C
+    F
+      I
+
+同时先序遍历变为：
+A  C  F  I  B  E  H  G  D
+中序遍历变为：
+I  F  C  A  H  E  G  B  D
+
+
+
+
+
+
